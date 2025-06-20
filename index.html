@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--project title-->
+    <title>cofeeshop</title>
+    <!-- Favourite icon -->
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <!--CSS File-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Font awesome icon CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+
+<body>
+    <header> <!--1. parentContainer -->
+        <nav class="navBar"> <!-- 2.component-->
+            <div class="navContainer "> <!--3.componentContainer-->
+                <div class="navBody grid-2"> <!-- 4.row-->
+                    <div class="logoBlock"> <!--5.column-->
+                        <div class="logoBox dflex"> <!--6.subcolumn-->
+                            <figure>
+                                <img src="./assets/images/logo.png" alt="coffeeshop">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="navBlock"> <!--5.column-->
+                        <div class="navBox dflex"> <!--6.subcolumn-->
+                            <ul>
+                                <li><a href="#Home">Home</a></li>
+                                <li><a href="#About">About</a></li>
+                                <li><a href="#Menu ">Menu</a></li>
+                                <li><a href="#Gallery">Gallery</a></li>
+                                <li><a href="#Team">Team</a></li>
+                                <li><a href="#Contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="heroSection"> <!-- 2.component-->
+            <div class="heroContainer screenSize" id="home"> <!--3.componentContainer-->
+                <div class="heroBody grid-1"> <!-- 4.row-->
+                    <div class="heroBlock"> <!--5.column-->
+                        <div class="heroBox dflex-col"> <!--6.subcolumn-->
+                            <h1>Coffee Heaven</h1>
+                            <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit.Adipisci Ipsa Id Vero
+                                Perferendis,
+                                Reiciendis Dolores!</p>
+                            <button type="button" onclick="window.open('#home', '_self')">About Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main> <!-- 1.parentContainer -->
+        <section class="ourmenu"> <!-- 2.component-->
+            <div class="ourmenuContainer screenSize" id="about"> <!--3.componentContainer-->
+                <div class="ourmenuBody grid-2"> <!-- 4.row-->
+                    <div class="menuImageBlock"> <!--5.column-->
+                        <div class="menuImageBox"> <!--6.subcolumn-->
+                            <figure>
+                                <img src="./assets/images/ourmenu.jpg" alt="coffeeshop">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="ourmenuBlock"> <!--5.column-->
+                        <div class="ourmenuBox dflex-col"> <!--6.subcolumn-->
+                            <h2>A Cup Of Coffee Can
+                                Complete Your Day</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, esse
+                                corrupti.Incidunt fuga sit numquam est consequatur provident ipsa quidem!
+                                Lorem</p>
+                            <button type="button" onclick="window.open('#home', '_self')">Our Menu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="facility"> <!-- 2.component-->
+            <div class="facilityContainer screenSize"> <!--3.componentContainer-->
+                <div class="headingBody grid-1"> <!-- 4.row 1-->
+                    <div class="headingBlock "> <!--5.column 1-->
+                        <div class="headingBox dflex-col"> <!--6.subcolumn 1-->
+                            <figure>
+                                <img src="./assets/images/heading-img (1).jpg" alt="Heading Image">
+                            </figure>
+                            <h2>Our Facility</h2>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="facilityBody grid-4"> <!-- 4.row 2-->
+                    <div class="facilityBlock"> <!--5.column 2-->
+                        <div class="facilityBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/icon-1.png" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>Varieties Of Coffee</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="facilityBlock"> <!--5.column 2-->
+                        <div class="facilityBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/icon-2.png" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>Coffee Beans</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="facilityBlock"> <!--5.column 2-->
+                        <div class="facilityBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/icon-3.png" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>Breakfast And Sweets</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="facilityBlock"> <!--5.column 2-->
+                        <div class="facilityBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/icon-4.png" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>Ready To Go Coffee</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="popular"> <!-- 2.component-->
+            <div class="popularContainer screenSize" id="menu"> <!--3.componentContainer-->
+                <div class="headingBody grid-1"> <!-- 4.row 1-->
+                    <div class="headingBlock"> <!--5.column 1-->
+                        <div class="headingBox dflex-col"> <!--6.subcolumn 1-->
+                            <figure>
+                                <img src="./assets/images/heading-img (1).jpg" alt="Heading Image">
+                            </figure>
+                            <h2>Popular Menu</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popularBody grid-3"> <!-- 4.row 2-->
+                    <div class="popularBlock"> <!--5.column 2-->
+                        <div class="popularBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/menu-1.png" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>Love You Coffee</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popularBlock"> <!--5.column 2-->
+                        <div class="popularBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/menu-2.png" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>Cappuccino</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popularBlock"> <!--5.column 2-->
+                        <div class="popularBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/menu-3.png" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>Mocha Coffee</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popularBlock"> <!--5.column 2-->
+                        <div class="popularBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/menu-4.png" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>Frappuccino</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popularBlock"> <!--5.column 2-->
+                        <div class="popularBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/menu-5.png" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>Black Coffee</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popularBlock"> <!--5.column 2-->
+                        <div class="popularBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/menu-6.png" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>Love Heart Coffee</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="gallery"> <!-- 2.component-->
+            <div class="galleryContainer screenSize" id="menu"> <!--3.componentContainer-->
+                <div class="headingBody grid-1"> <!-- 4.row 1-->
+                    <div class="headingBlock"> <!--5.column 1-->
+                        <div class="headingBox dflex-col"> <!--6.subcolumn 1-->
+                            <figure>
+                                <img src="./assets/images/heading-img (1).jpg" alt="Heading Image">
+                            </figure>
+                            <h2>Our Gallery</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="galleryBody grid-3"> <!-- 4.row 2-->
+                    <div class="galleryBlock"> <!--5.column 2-->
+                        <div class="galleryBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/gallery-1.jpg" alt="coffeeshop">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="galleryBlock"> <!--5.column 2-->
+                        <div class="galleryBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/gallery-2.jpg" alt="coffeeshop">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="galleryBlock"> <!--5.column 2-->
+                        <div class="galleryBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/gallery-3.jpg" alt="coffeeshop">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="galleryBlock"> <!--5.column 2-->
+                        <div class="galleryBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/gallery-4.jpg" alt="coffeeshop">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="galleryBlock"> <!--5.column 2-->
+                        <div class="galleryBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/gallery-5.jpg" alt="coffeeshop">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="galleryBlock"> <!--5.column 2-->
+                        <div class="galleryBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/gallery-6.jpg" alt="coffeeshop">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="team"> <!-- 2.component-->
+            <div class="teamContainer screenSize" id="menu"> <!--3.componentContainer-->
+                <div class="headingBody grid-1"> <!-- 4.row 1-->
+                    <div class="headingBlock"> <!--5.column 1-->
+                        <div class="headingBox dflex-col"> <!--6.subcolumn 1-->
+                            <figure>
+                                <img src="./assets/images/heading-img (1).jpg" alt="Heading Image">
+                            </figure>
+                            <h2>Our Team</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="teamBody grid-3"> <!-- 4.row 2-->
+                    <div class="teamBlock"> <!--5.column 2-->
+                        <div class="teamBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/our-team-1.jpg" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>John Deo</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="teamBlock"> <!--5.column 2-->
+                        <div class="teamBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/our-team-2.jpg" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>John Deo</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="teamBlock"> <!--5.column 2-->
+                        <div class="teamBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/our-team-3.jpg" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>John Deo</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="teamBlock"> <!--5.column 2-->
+                        <div class="teamBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/our-team-4.jpg" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>John Deo</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="teamBlock"> <!--5.column 2-->
+                        <div class="teamBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/our-team-5.jpg" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>John Deo</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="teamBlock"> <!--5.column 2-->
+                        <div class="teamBox dflex-col"> <!--6.subcolumn 2-->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/our-team-6.jpg" alt="coffeeshop">
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>John Deo</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer> <!--1.parentContainer-->
+        <div class="contact"> <!-- 2.component-->
+            <div class="contactContainer screenSize" id="contact"> <!--3.componentContainer-->
+                <div class="headingBody grid-1"> <!-- 4.row1-->
+                    <div class="headingBlock"> <!--5.column1-->
+                        <div class="headingBox dflex-col"> <!--6.subcolumn1-->
+                            <figure>
+                                <img src="./assets/images/heading-img (1).jpg" alt="Heading Image">
+                            </figure>
+                            <h2>Contact Us</h2> <!-- contentContainer-->
+                        </div>
+                    </div>
+                </div>
+                <div class="contactBody grid-2"> <!-- 4.row2-->
+                    <div class="contactImageBlock"> <!--5.column2-->
+                        <div class="contactImageBox"> <!--6.subcolumn2-->
+                            <figure>
+                                <img src="./assets/images/contact-img (1) (1).jpg" alt="formimage">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="contactFormBlock"> <!--5.column3-->
+                        <div class="contactFormBox dflex-col"> <!--6.subcolumn3-->
+                            <h4>Book A Table</h4>
+                            <form action="#" method="post">
+                                <div class="formGroup">
+                                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                                </div>
+                                <div class="formGroup">
+                                    <input type="tel" id="mobile" name="mobile" placeholder="Enter your number"
+                                        required>
+                                </div>
+                                <div class="formGroup">
+                                    <input type="number" id="guest" name="guests" placeholder="How many guests" min="1"
+                                        max="50" required>
+                                </div>
+                                <div class="formGroup button">
+                                    <button type="submit">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contactIcons"> <!-- 2.component-->
+            <div class="contactIconsContainer screenSize"> <!--3.componentContainer-->
+                <div class="contactIconsBody grid-4"> <!-- 4.row1-->
+                    <div class="contactIconsBlock"> <!--5.column1-->
+                        <div class="contactIconsBox dflex-col"> <!--6.subcolumn1-->
+                            <div class="cardHeader">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+
+                            <div class="CardMain">
+                                <h3>Our Email</h3>
+                                <p>shaakshi@gmail.com</p>
+                                <p>hyhy@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contactIconsBlock"> <!--5.column2-->
+                        <div class="contactIconsBox dflex-col"> <!--6.subcolumn2-->
+                            <div class="cardHeader">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+
+                            <div class="CardMain">
+                                <h3>Opening Hours</h3>
+                                <p>07:00am to 09:00pm</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contactIconsBlock"> <!--5.column3-->
+                        <div class="contactIconsBox dflex-col"> <!--6.subcolumn3-->
+                            <div class="cardHeader">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div class="CardMain">
+                                <h3>Shop Location</h3>
+                                <p>Mumbai, India- 400101</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contactIconsBlock"> <!--5.column4-->
+                        <div class="contactIconsBox dflex-col"> <!--6.subcolumn4-->
+                            <div class="cardHeader">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="CardMain">
+                                <h3>Our Number</h3>
+                                <p>+91-123-456-7890</p>
+                                <p>+91-111-222-3333</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyrightBody"> <!-- 4.row2-->
+                    <div class="copyrightBlock"> <!--5.column2-->
+                        <div class="copyrightBox dflex"> <!--6.subcolumn2-->
+                            <p> &copy; Copyright @ 2022 By Mr.Web Designer | All Rights Reserved!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
